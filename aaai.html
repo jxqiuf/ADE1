@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文档标题</title>
+    <!-- 这里可以添加其他头部信息，如链接到CSS样式表或JavaScript脚本 -->
+    <style>
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+        body{background-color: #F6F8Fa;}
+    /*#toubu{
+    width:100%;
+    height:100px;
+    background:rgb(255, 255, 255);
+    }*/
+    #banner{
+        width: 1440px;   
+        height:600px;
+        margin: 20px auto;
+        border-radius: 15px;
+        background:red;
+        background-image:url("/Users/jinxu/Desktop/banner2.png");
+        background-size: 100% 100%;
+        transition: transform 0.3s ease;
+    }
+
+    #banner:hover {
+        transform: scale(1.05);
+    }
+    /*#logo{
+
+        width: 180px;
+        height: 32px;
+        background-image:url("/Users/jinxu/Desktop/萝卜logo.png");
+        float: left;
+        margin: 30px;
+    }*/
+    #san{
+        width: 1440px;
+        height:1000px;
+        margin: 20px auto;
+    }
+    #san1{
+        float: left;
+        width: 456px;   
+        height: 260px;
+        background-color: #ffffff;
+        border-radius: 15px;
+    }
+    #san2{
+        float: left;
+        margin-left: 20px;
+        width: 456px;   
+        height: 260px;
+        background-color: #ffffff;
+        border-radius: 15px;
+    }
+    #san3{
+        float: left;
+        margin-left: 20px;
+        width: 456px;   
+        height: 260px;
+        background-color: #ffffff;
+        border-radius: 15px;
+
+    }
+    /* 备注：这是菜单的测试 */
+    .top-menu {
+    background-color: #ffffff;
+    overflow: hidden;}
+    .top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* 水平居中 */}
+    .top-menu li {
+    padding: 24px 40px;}
+
+    .logo img{
+        height: 20px;
+        float: left;
+    }
+
+.top-menu a {
+    display: block;
+    color: rgba(0, 0, 0, 0.907);
+    text-align: center;
+    text-decoration: none;}
+
+    .top-menu a:hover {
+    background-color: #6661ff;}
+
+    </style>
+</head>
+
+<body>
+   <!-- 这是菜单的测试 -->
+     
+   <nav class="top-menu">
+    <ul>
+         <!-- 这是logo的测试 -->
+        <div class="logo">
+            <!-- 这里放置logo，可以是图片<img>或其他元素 -->
+            <img src="/Users/jinxu/Desktop/萝卜logo.png" alt="Logo">
+        </div>
+         <!-- 这是logo的测试完 -->
+        <li><a href="#home">首页</a></li>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#services">服务</a></li>
+        <li><a href="#contact">联系我们</a></li>
+    </ul>
+</nav>
+
+     <div id="banner"></div>
+     <div id="san">
+        <div id="san1"></div>
+        <div id="san2"></div>
+        <div id="san3"></div>
+     </div>
+    
+  
+    
+     <img src="">
+</body>
+</html>
